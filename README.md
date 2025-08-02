@@ -58,7 +58,7 @@ c. XGBoostClassifier 🚀
 
 <img width="531" height="772" alt="Screenshot 2025-08-02 205235" src="https://github.com/user-attachments/assets/8692ba2c-8f0b-4e13-8965-d16e45823b93" />
 
-✅ Confusion Matrix (for "XGBoost" Model):
+<b><u>✅ Confusion Matrix (for "XGBoost" Model):</u></b>
 
 <img width="835" height="617" alt="Screenshot 2025-08-02 205400" src="https://github.com/user-attachments/assets/2c6b06c8-bac1-4dfb-9bc1-6841b61554bc" />
 
