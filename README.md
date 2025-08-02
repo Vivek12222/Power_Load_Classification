@@ -23,16 +23,24 @@ Using historical data including electrical usage and power factor measurements, 
 ✅ Actions Performed:
 
 a. Parsed Date_Time column and sorted chronologically.
+
 b. Handled missing values:
+
   i. Forward-fill for Lagging_Current_Power_Factor and Leading_Current_Power_Factor
+  
   ii. Median fill for Usage_kWh, NSM, CO2
+  
 c. Removed duplicates and rows with constant values.
+
 d. Applied outlier filtering using Z-score.
+
 e. Label encoded the Load_Type column for modeling.
 
 ## 📊 2. Exploratory Data Analysis (EDA)
 🔍 Correlation Matrix:
+
 a. Strong correlation observed between Usage_kWh and Load_Type
+
 b. CO2 and NSM also show relevant patterns.
 
 <img width="1098" height="745" alt="Screenshot 2025-08-02 205257" src="https://github.com/user-attachments/assets/12cf214c-51c7-406a-9dbc-ff1bee2e7206" />
@@ -40,20 +48,28 @@ b. CO2 and NSM also show relevant patterns.
 
 ## 🛠️ 3. Feature Engineering
 a. Converted Date_Time to extract month-based features (optional).
+
 b. Scaled features using StandardScaler.
+
 c. All features kept numerical for clean integration with all models.
 
 ## 🔀 4. Dataset Splitting
 a. Stratified splitting to maintain class distribution.
+
   i. 60% Training
+  
   ii. 20% Validation
+  
   iii. 20% Test
+  
 Ensures fair evaluation and robust model performance tracking.
 
 ## 🤖 5. Model Training & Performance Evaluation
 Models Compared:</n>
 a. RandomForestClassifier 🌲</n>
+
 b. LogisticRegression 🧠</n>
+
 c. XGBoostClassifier 🚀</n>
 
 
@@ -72,7 +88,9 @@ c. XGBoostClassifier 🚀</n>
 
 ## 📉 6. Feature Importance
 a. Feature importances obtained from RandomForest and XGBoost.
+
 b. Usage_kWh dominates in impact.
+
 c. Secondary factors: CO2, Lagging_Current_Power_Factor
 
 <img width="1376" height="734" alt="Screenshot 2025-08-02 205351" src="https://github.com/user-attachments/assets/5798ce5e-07e8-450f-ae02-91f0e75bbea1" />
@@ -80,7 +98,9 @@ c. Secondary factors: CO2, Lagging_Current_Power_Factor
 
 ## 🧠 7. Explainability with SHAP
 <b>SHAP Summary:</b>
+
 a. SHAP (SHapley Additive exPlanations) used for interpreting XGBoost.
+
 b. Each feature’s impact on predictions shown clearly.
 
 <img width="1112" height="672" alt="Screenshot 2025-08-02 205437" src="https://github.com/user-attachments/assets/9aa361c5-8c14-4707-a32b-2f8254b03fe6" />
