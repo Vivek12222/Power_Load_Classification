@@ -3,7 +3,7 @@
 The goal of this project is to build an effective machine learning model to classify power system load into three categories:
 1. Light_Load
 2. Medium_Load
-3. Maximum_Load
+3. Maximum_Load  
 Using historical data including electrical usage and power factor measurements, the objective is to create a robust, explainable model capable of making accurate predictions.
 
 ## 🧾 Dataset Overview
@@ -51,7 +51,7 @@ a. Stratified splitting to maintain class distribution.
 Ensures fair evaluation and robust model performance tracking.
 
 ## 🤖 5. Model Training & Performance Evaluation
-Models Compared:</n>
+Models Compared:  
 a. RandomForestClassifier 🌲  
 b. LogisticRegression 🧠  
 c. XGBoostClassifier 🚀  
@@ -79,7 +79,7 @@ c. Secondary factors: CO2, Lagging_Current_Power_Factor
 
 
 ## 🧠 7. Explainability with SHAP
-<b>SHAP Summary:</b>
+<b>SHAP Summary:</b>  
 a. SHAP (SHapley Additive exPlanations) used for interpreting XGBoost.  
 b. Each feature’s impact on predictions shown clearly.  
 
