@@ -7,8 +7,8 @@ The goal of this project is to build an effective machine learning model to clas
 Using historical data including electrical usage and power factor measurements, the objective is to create a robust, explainable model capable of making accurate predictions.
 
 ## 🧾 Dataset Overview
-Feature	Description
-| Column Name                 | Description                                           |
+<b>Feature	Description</b>
+| <b>Column Name                 | Description                                       </b>    |
 |-----------------------------|-------------------------------------------------------|
 | Date_Time                   | Timestamp of measurement (1st of every month)         |
 | Usage_kWh                   | Industry energy consumption (kWh)                     |
