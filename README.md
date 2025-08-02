@@ -4,7 +4,6 @@ The goal of this project is to build an effective machine learning model to clas
 1. Light_Load
 2. Medium_Load
 3. Maximum_Load
-
 Using historical data including electrical usage and power factor measurements, the objective is to create a robust, explainable model capable of making accurate predictions.
 
 ## 🧾 Dataset Overview
@@ -22,19 +21,13 @@ Using historical data including electrical usage and power factor measurements, 
 ## 🧹 1. Data Preprocessing
 ✅ Actions Performed:
 
-a. Parsed Date_Time column and sorted chronologically.
-
-b. Handled missing values:
-
-  i. Forward-fill for Lagging_Current_Power_Factor and Leading_Current_Power_Factor
-      
-  ii. Median fill for Usage_kWh, NSM, CO2
-  
-c. Removed duplicates and rows with constant values.
-
-d. Applied outlier filtering using Z-score.
-
-e. Label encoded the Load_Type column for modeling.
+a. Parsed Date_Time column and sorted chronologically.  
+b. Handled missing values:  
+  i. Forward-fill for Lagging_Current_Power_Factor and Leading_Current_Power_Factor      
+  ii. Median fill for Usage_kWh, NSM, CO2  
+c. Removed duplicates and rows with constant values.  
+d. Applied outlier filtering using Z-score.  
+e. Label encoded the Load_Type column for modeling.  
 
 ## 📊 2. Exploratory Data Analysis (EDA)
 🔍 Correlation Matrix:
