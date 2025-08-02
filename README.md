@@ -49,10 +49,10 @@ a. Stratified splitting to maintain class distribution.
 Ensures fair evaluation and robust model performance tracking.
 
 ## 🤖 5. Model Training & Performance Evaluation
-Models Compared:
-a. RandomForestClassifier 🌲
-b. LogisticRegression 🧠
-c. XGBoostClassifier 🚀
+Models Compared:</n>
+a. RandomForestClassifier 🌲</n>
+b. LogisticRegression 🧠</n>
+c. XGBoostClassifier 🚀</n>
 
 
 
