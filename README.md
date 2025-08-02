@@ -3,7 +3,7 @@
 The goal of this project is to build an effective machine learning model to classify power system load into three categories:
 1. Light_Load
 2. Medium_Load
-3. Maximum_Load
+3. Maximum_Load</n>
 Using historical data including electrical usage and power factor measurements, the objective is to create a robust, explainable model capable of making accurate predictions.
 
 ## 🧾 Dataset Overview
