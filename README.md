@@ -22,9 +22,9 @@ Using historical data including electrical usage and power factor measurements, 
 ✅ Actions Performed:
 
 a. Parsed Date_Time column and sorted chronologically.  
-b. Handled missing values:
-<tab>i. Forward-fill for `Lagging_Current_Power_Factor` and `Leading_Current_Power_Factor`  </tab>
-          ii. Median fill for `Usage_kWh`, `NSM`, `CO2`  
+b. Handled missing values:  
+<tab>i. Forward-fill for `Lagging_Current_Power_Factor` and `Leading_Current_Power_Factor`  
+<tab>ii. Median fill for `Usage_kWh`, `NSM`, `CO2`  
 c. Removed duplicates and rows with constant values.  
 d. Applied outlier filtering using Z-score.  
 e. Label encoded the Load_Type column for modeling.  
